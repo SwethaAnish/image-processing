@@ -1,2 +1,2 @@
 # image-processing
-Basic concepts of image processing are implemented using C++ and Python
+Basic concepts of image processing implemented using Python
