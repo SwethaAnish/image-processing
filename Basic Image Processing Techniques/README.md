@@ -36,9 +36,23 @@ Removing an object from a scene in an image is called as **COMPOSTING**. Placing
                                 C = (1 − α)B + αF
 where, B is the background and F is the foreground.
 
+#### Histogram Equalization:
+
+##### Histogram:
+Histogram is a graphical representation of Image's pixel intensity values. It can be interpreted as the data structure that contains the frequency of the pixel intensity levels in an Image. 
+
+![alt text](https://miro.medium.com/max/640/1*c1eCgfFWEPDhE6-ojPFk4g.webp)
+
+RGB images has 3 histograms, one for each channel. 
+
+##### What is Histogram equalization? 
+
+Histogram Equalization is a technique used to adjust the contrast of an Image using its own histogram. It will spread out most frequent pixel intensity. By this, histogram equalization can increase the contrast in the image in areas where there are less contrast. Mathematically, it can be said as integrating the actual distribution (original histogram) to obtain the cummulative distribution. 
+
+![alt text](https://miro.medium.com/max/640/1*PWPxuPXr1CrRgJGo8vMH_g.webp)
 
 
-
+If the histogram of an image is dense in a Brighter region, it means that the image is of low contrast. Histogram equalization works on mapping the input pixels in the brighter region to the output pixels in all the region.
 
 
 
@@ -46,6 +60,9 @@ where, B is the background and F is the foreground.
 ### References: 
 1. 
 2. https://www.cambridgeincolour.com/tutorials/gamma-correction.htm
+3. https://medium.com/@kyawsawhtoon/a-tutorial-to-histogram-equalization-497600f270e2
+4. https://medium.com/mlearning-ai/how-to-plot-color-channels-histogram-of-an-image-in-python-using-opencv-40022032e127
+5. https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html
 
 
 
