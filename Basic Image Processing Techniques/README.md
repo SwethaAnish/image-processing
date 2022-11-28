@@ -26,9 +26,9 @@ g(x) = [f(x)] ^ 1/γ , where γ = 2.2 for most digital cameras.
 On applying gamma correction, it helps to translate the light sensitivity between the camera and the human eye. All the images, when saved are gamma encoded, so that the human eye can percieve the light properly. 
     * The linear encoded images has very less tones/ gradients for describing the dark tones while the gamma encoded images has a sufficient levels of gradients for describing the dark tones
 
-    ![alt text](https://cdn.cambridgeincolour.com/images/tutorials/gamma_gradient2b.png)
+![alt text](https://cdn.cambridgeincolour.com/images/tutorials/gamma_gradient2b.png)
 
-    ![alt text](https://cdn.cambridgeincolour.com/images/tutorials/gamma_gradient1b.png)
+![alt text](https://cdn.cambridgeincolour.com/images/tutorials/gamma_gradient1b.png)
 
 
 #### Composting and Matting:
