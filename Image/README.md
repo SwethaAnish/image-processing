@@ -12,3 +12,11 @@ Digital Images are made up of pixels, and based on the depth of the pixels, Imag
 
 ![alt text](image.png)
     * Unlike grayscale Images, **RGB images** are 3 channelled images. Each pixel is made up of 3 channels with each channel representing a colour. Mathematically,  it is a 3 dimensional array, each dimension corresponding to R, G and B values respectively. The regions containing red colour in the original image are lighter in the red channel image. This means that, the regions which contribute more to the red colour of the original image are lighter in the grayscale image of the red channel. The regions which contribute less or do not contribute are dark. This applies for all the three channels.
+
+
+
+### References 
+1. https://www.w3schools.com/colors/colors_rgb.asp
+2. https://medium.com/featurepreneur/understanding-the-concept-of-channels-in-an-image-6d59d4dafaa9
+3. https://manifold.net/doc/mfd8/images_and_channels.htm
+4. https://www.the-working-man.org/2014/12/bit-depth-color-precision-in-raster.html
