@@ -20,5 +20,4 @@
 | Similarity Transform | Angles |
 | Affine Transform | Parallelism |
 | Projective | Straight lines| 
-|-----------------------------|
 
