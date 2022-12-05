@@ -1,5 +1,11 @@
 # image-processing
 
+## Python libraries used:
+Numpy
+PIL
+OpenCV
+urllib
+Matplotlib
 ## Basic Image - Processing Techniques:
 
 #### Point operators/ Point Porcesses:
@@ -58,7 +64,7 @@ If the histogram of an image is dense in a Brighter region, it means that the im
 
 
 ### References: 
-1. 
+1. Book : computer-vision-algorithms-and-applicatons-2nd-edition, by Richard Szeliski
 2. https://www.cambridgeincolour.com/tutorials/gamma-correction.htm
 3. https://medium.com/@kyawsawhtoon/a-tutorial-to-histogram-equalization-497600f270e2
 4. https://medium.com/mlearning-ai/how-to-plot-color-channels-histogram-of-an-image-in-python-using-opencv-40022032e127
