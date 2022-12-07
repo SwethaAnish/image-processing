@@ -5,11 +5,11 @@ Sampling is converting the analog signals to digital signal. Once image is captu
 #### Quantization:
 Quantization is the process of assigning values to each sample based on their amplitude. Assigning pixel values to each pixel is Quantization. The total number of values we can assign with respect to the amplitude is known as Quantization level. In an Image (8-bit), the quantization level is 256. 
 
-|Sampling|Quantization|
-|-------------------------|
-|Gives number of Pixels in an Image|Gives the value of each pixel in an Imag|
-|It digitalizes analog signal's x axis|It digitalizes the analog signals y - axis|
-|Sampling is carried out before Quantization|Quantization is carried out after sampling|
+ | Sampling | Quantization |
+ | ------------------------- |
+ | Gives number of Pixels in an Image | Gives the value of each pixel in an Image |
+ | It digitalizes analog signal's x axis | It digitalizes the analog signals y - axis |
+ | Sampling is carried out before Quantization | Quantization is carried out after sampling |
 
 a frame grabber or digitizer is used to sample the analog signal.
 
