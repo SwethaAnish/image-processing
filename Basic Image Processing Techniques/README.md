@@ -61,6 +61,9 @@ Histogram Equalization is a technique used to adjust the contrast of an Image us
 If the histogram of an image is dense in a Brighter region, it means that the image is of low contrast. Histogram equalization works on mapping the input pixels in the brighter region to the output pixels in all the region.
 
 
+##### Contrast - Locally adaptive Histogram Equalization:
+
+An Adaptive histogram equalization method. In general histogram equalization, the histogram is computed for all the pixels in the image. This, while increasing the contrast, increases the contrast of the noise as well. This might create undesirable artifacts. To avoid this, Adaptive histogram equalization is performed. In this method, the image is divided in blocks and histogram is computed at each block in the image. This can significantly reduce the problem faced in Histogram equalization. The adaptive histogram equalization method in OpenCV has a parameter clip, in which the contrast value can be limited. Typically, the contrast limiting must fall in the range 2-5. 
 
 
 ### References: 
