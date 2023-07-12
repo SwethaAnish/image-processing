@@ -1,5 +1,11 @@
 # image-processing
 
+## Python libraries used:
+Numpy
+PIL
+OpenCV
+urllib
+Matplotlib
 ## Basic Image - Processing Techniques:
 
 #### Point operators/ Point Porcesses:
@@ -55,10 +61,13 @@ Histogram Equalization is a technique used to adjust the contrast of an Image us
 If the histogram of an image is dense in a Brighter region, it means that the image is of low contrast. Histogram equalization works on mapping the input pixels in the brighter region to the output pixels in all the region.
 
 
+##### Contrast - Locally adaptive Histogram Equalization:
+
+An Adaptive histogram equalization method. In general histogram equalization, the histogram is computed for all the pixels in the image. This, while increasing the contrast, increases the contrast of the noise as well. This might create undesirable artifacts. To avoid this, Adaptive histogram equalization is performed. In this method, the image is divided in blocks and histogram is computed at each block in the image. This can significantly reduce the problem faced in Histogram equalization. The adaptive histogram equalization method in OpenCV has a parameter clip, in which the contrast value can be limited. Typically, the contrast limiting must fall in the range 2-5. 
 
 
 ### References: 
-1. 
+1. Book : computer-vision-algorithms-and-applicatons-2nd-edition, by Richard Szeliski
 2. https://www.cambridgeincolour.com/tutorials/gamma-correction.htm
 3. https://medium.com/@kyawsawhtoon/a-tutorial-to-histogram-equalization-497600f270e2
 4. https://medium.com/mlearning-ai/how-to-plot-color-channels-histogram-of-an-image-in-python-using-opencv-40022032e127
